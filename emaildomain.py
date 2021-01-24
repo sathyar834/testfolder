@@ -1,8 +1,10 @@
 import re
-def valid_email(email):
-  print(bool(re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", email)))
 
-valid_email("sathyar834xyz.com")
+def validemail(email):
+  mail= bool(re.search(r"^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}$", email))
+  return mail
+
+
 
 # from validate_email import validate_email
 # import re
